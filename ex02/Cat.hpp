@@ -6,11 +6,15 @@
 /*   By: anikoyan <anikoyan@student.42yerevan.am>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 09:12:20 by anikoyan          #+#    #+#             */
-/*   Updated: 2025/05/20 16:54:12 by anikoyan         ###   ########.fr       */
+/*   Updated: 2025/05/26 16:16:51 by anikoyan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
+
+#include <stdio.h> 
+#include <stdlib.h> 
+#include <unistd.h> 
 
 #include "Animal.hpp"
 #include "Brain.hpp"
