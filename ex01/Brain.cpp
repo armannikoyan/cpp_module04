@@ -6,7 +6,7 @@
 /*   By: anikoyan <anikoyan@student.42yerevan.am>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/17 20:02:18 by anikoyan          #+#    #+#             */
-/*   Updated: 2025/05/20 18:08:46 by anikoyan         ###   ########.fr       */
+/*   Updated: 2025/05/26 16:07:59 by anikoyan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ Brain& Brain::operator=(const Brain& other)
     for (size_t i = 0; i < 100; ++i)
     {
       if (other.ideas_[i].length() > 0)
-          ideas_[i].assign(other.ideas_[i]);
+          ideas_[i] = other.ideas_[i];
     }
   }
   return *this;
